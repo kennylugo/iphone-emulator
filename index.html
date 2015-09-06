@@ -10,6 +10,8 @@
 			padding: 0;
 			background: #2980b9;
 		}
+		
+
 
 		.iphone {
 			background-color: #1A1A1A;
@@ -21,11 +23,14 @@
 			border-radius: 50px;
 			position: 50% 50%;
 			top: 80px;
+			border: 3px solid #bdc3c7;
+
 		}
 
 		.iphone-button {
 			background-color: #2B2B2B;
 			border-radius: 50px;
+			border: 2px solid transparent;
 			width: 50px;
 			height: 50px;
 			position: absolute;
@@ -33,6 +38,17 @@
 			left: 127px;
 			
 			
+		}
+
+		.button-decal {
+			background-color: transparent;
+			border: 3px solid darkgrey;
+			border-radius: 7px;
+			width: 20px;
+			height: 20px;
+			position: relative;
+			left: 4px;
+    		top: 1px;
 		}
 
 		.iphone-screen {
@@ -44,6 +60,13 @@
 		    top: 74px;
 		}
 
+		.background-image {
+			width: 270px;
+			height: 443px;
+			background-image: url("iphone-bg.png");
+			background-size: cover;
+		}
+
 
 		</style>
 
@@ -51,8 +74,8 @@
 
 	<body>
 		<div class="iphone">
-			<div class="iphone-screen"></div>
-			<div class="iphone-button"></div>
+			<div class="iphone-screen">	<div class="background-image">	</div></div>
+			<button class="iphone-button">	<div class="button-decal">	</div></button>
 		</div>
  
 		  
