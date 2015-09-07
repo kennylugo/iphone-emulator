@@ -6,12 +6,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/css/swiper.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/css/swiper.min.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/js/swiper.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/js/swiper.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/js/swiper.jquery.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/js/swiper.jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/css/swiper.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/css/swiper.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.jquery.min.js"></script>
 
 		<style type="text/css">
 
@@ -133,7 +133,18 @@
 		}
 		/*END IPHONE SCREEN*/
 
+		.swiper-container {
+		    width: 227px;
+		    height: 443px;
+		    
+			} 
 
+			.swiper-slide:first-child {
+				background-color: blue;
+			}
+			.swiper-slide:ntn-child(2) {
+				background-color: red;
+			}
 		
 		  
   </style>
@@ -155,6 +166,22 @@
 				
 
 				<div class="iphone-screen background-image"> <!-- START OF IPHONE SCREEN -->
+
+															<!-- Slider main container -->
+										<div class="swiper-container">
+										    <!-- Additional required wrapper -->
+										    <div class="swiper-wrapper">
+										        <!-- Slides -->
+										        <div class="swiper-slide first-slide">Slide 1</div>
+										        <div class="swiper-slide second-slide">Slide 2</div>
+										        
+										        
+										    </div>
+										    <!-- If we need pagination -->
+										    <div class="swiper-pagination"></div>
+										    
+										    
+										</div>
 				
 				</div> <!-- END OF IPHONE SCREEN -->
 				
@@ -167,7 +194,24 @@
 		
 
 
+		<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    // Optional parameters
+	    direction: 'horizontal',
+	    loop: false,
+	    
+	    // If we need pagination
+	    pagination: '.swiper-pagination',
+	    
+	    // // Navigation arrows
+	    // nextButton: '.swiper-button-next',
+	    // prevButton: '.swiper-button-prev',
+	    
+	    // And if we need scrollbar
+	    // scrollbar: '.swiper-scrollbar',
+	  })   
 
+	  </script>
 
 
 
