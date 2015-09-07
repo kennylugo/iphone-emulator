@@ -202,128 +202,7 @@ body {
 
 			
 
-			.modal-wrapper-1{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-            
-        	.modal-wrapper-2{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-
-        	.modal-wrapper-3{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-
-        	.modal-wrapper-4{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal-wrapper-5{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal-wrapper-6{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal-wrapper-7{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal-wrapper-8{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
+			
 
         	.modal {
         		width: 270px;
@@ -335,6 +214,396 @@ body {
         		z-index: 800;
 
         	} /*MODAL AND WRAPPER*/
+
+
+				.modal-wrapper-1 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+
+
+
+				}
+				.modal-wrapper-2 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+
+
+
+				}
+				.modal-wrapper-3 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+
+
+
+				}
+				.modal-wrapper-4 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+
+
+
+				}
+				.modal-wrapper-5 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+
+
+
+				}
+				.modal-wrapper-6 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+
+
+
+				}
+				.modal-wrapper-7 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+
+
+
+				}
+				.modal-wrapper-8 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+
+
+
+				}
+				.modal-wrapper-9 {
+
+
+				position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+
+
+				}
+
+
+
+				.modal-wrapper-10 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-11 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-12 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-13 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-14 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-15 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-16 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-17 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-18 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-19 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-20 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-21 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-22 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-23 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-24 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-25 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-26 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-27 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-28 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-29 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+				.modal-wrapper-30 {
+					position: fixed;
+        		width: 100%;
+        		height: 100%;
+        		padding:0;
+        		margin: 0;
+        		top: -7px;
+        		left: 0;
+        		display: none;
+        		z-index: 800;
+				}
+			
+			
+
+
+
+
+
+
+
+
+
 
         	button {
         		outline: none;
