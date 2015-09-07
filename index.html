@@ -133,7 +133,7 @@
 		}
 		/*END IPHONE SCREEN*/
 
-		.swiper-container {
+		/*.swiper-container {
 		    width: 270px;
 		    height: 443px;
 		    
@@ -148,14 +148,22 @@
 				background-color: red;
 				width: 270px;
 		    	height: 443px;
-			}
+			}*/
 
 			.dock {
 				background-color: white;
 				position: relative;
-				bottom: 40px;
+				bottom: -355px;
 				width: 270;
-				height: 100px;
+				height: 70px;
+			}
+
+			.status-bar {
+				background-color: white;
+				position: relative;
+				top: 0px;
+				width: 270;
+				height: 15px;
 			}
 		
 		  
@@ -178,6 +186,7 @@
 				
 
 				<div class="iphone-screen background-image"> <!-- START OF IPHONE SCREEN -->
+							<div class="status-bar"> </div>
 
 															<!-- Slider main container -->
 										<div class="swiper-container">
@@ -191,7 +200,7 @@
 											    </div>
 											    <!-- If we need pagination -->
 											    <div class="swiper-pagination"></div> 
-										</div>
+										</div> 
 
 										<div class="dock"> </div>
 				
@@ -226,7 +235,7 @@
 	  </script>
 
 
-
+	
 
 		
 
