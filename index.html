@@ -13,433 +13,11 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.jquery.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.jquery.min.js"></script>
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="javascript/main.js">
+
 
 		<style type="text/css">
 
-		body {
-			margin: 0;
-			padding: 0;
-			background: #2980b9;
-		}
 		
-		/*BANNER*/
-		.banner {
-			position: relative;
-			top: 20px;
-			text-align: center;
-			color:white;
-			font-family: Helvetica;
-			font-size: 60px;
-			padding: 0;
-			margin: 0;
-		}
-		/*BANNER END*/
-
-
-		/*OUTTER IPHONE APPEARANCE */
-		.iphone {
-			background-color: #1A1A1A;
-			width: 300px;
-			height: 600px;
-			margin-left: auto;
-			margin-right: auto;
-			border-radius: 50px;
-			border: 3px solid #bdc3c7;
-			position: absolute;
-		    top: 55%;
-		    left: 50%;
-		    transform: translateX(-50%) translateY(-50%);
-
-
-		}
-
-		.iphone-camera-cover {
-		    background-color: #2B2B2B;
-		    border-radius: 50px;
-		    border: 2px solid transparent;
-		    width: 10px;
-		    height: 10px;
-		    position: absolute;
-		    top: 18px;
-		    left: 148px;
-		}
-
-		.iphone-camera {
-		    background-color: #bdc3c7;
-		    border-radius: 50px;
-		    width: 5px;
-		    height: 5px;
-		    position: relative;
-		    top: 3px;
-		    left: 2.5px;
-		}
-
-		
-
-		.iphone-speaker {
-			background-color: #2B2B2B;
-			border-radius: 50px;
-			border: 2px solid transparent;
-			width: 50px;
-			height: 5px;
-			position: absolute;
-			top: 40px;
-			left: 127px;
-			
-			
-		}
-
-		
-		.iphone-button {
-			background-color: #2B2B2B;
-		    border-radius: 50px;
-		    border: 2px solid transparent;
-		    width: 50px;
-		    height: 50px;
-		    position: fixed;
-		    bottom: 15px;
-		    left: 124px;
-			
-			
-		}
-
-		.button-decal {
-			background-color: transparent;
-			border: 3px solid darkgrey;
-			border-radius: 7px;
-			width: 20px;
-			height: 20px;
-			position: relative;
-			left: 4px;
-    		top: 1px;
-		}
-		/*END OUTTER IPHONE APPEARANCE*/
-
-
-		/*IPHONE SCREEN*/
-		.iphone-screen {
-		    background-color: white;
-		    width: 270px;
-		    height: 443px;
-		    position: relative;
-		    left: 15px;
-		    top: 74px;
-		}
-
-		.background-image {
-			width: 270px;
-			height: 443px;
-			background-image: url("iphone-bg.png");
-			background-size: cover;
-		}
-		/*END IPHONE SCREEN*/
-		
-		/*SWIPER */
-		.swiper-container {
-		    width: 270px;
-		    height: 372px;
-		    position: relative;
-		    top: 0px;
-		    margin: 0;
-
-		    
-			} 
-
-			.swiper-wrapper {
-				width: 270px;
-		   		height: 344px;
-		   		margin: 0;
-			}
-
-			.swiper-slide {
-				width: 270px;
-		   		height: 376px;
-		   		margin: 0;
-			}
-
-			.first-slide {
-				margin: 0;
-				background-color: transparent;
-				
-			}
-			.second-slide {
-				background-color:transparent;
-				
-			}
-		/*SWIPER END*/
-
-
-			.dock {
-				background-color: #585858;
-			    position: relative;
-			    bottom: 4px;
-			    width: 270;
-			    height: 60px;
-			    margin: 0;
-			    
-			} /*DOCK*/
-
-			.status-bar {
-				background-color: white;
-				position: relative;
-				top: 0px;
-				width: 270;
-				height: 15px;
-			} /*STATUS BAR*/
-
-			/*.swiper-pagination {
-				position: relative;
-				bottom: 0px;
-			}*/ /*pagination*/
-
-			.apps {
-				width: 45px;
-				height: 46px;
-				float: left;
-				background-color: purple;
-				margin: 5px;
-				margin-left: 13px;
-				margin-bottom: 8px;
-				margin-top: 13px;
-				border-radius: 15px;
-			}
-
-			.dock-apps {
-
-				width: 45px;
-				height: 46px;
-				float: left;
-				background-color: purple;
-				margin: 3px;
-				margin-left: 15px;
-				border-radius: 15px;
-
-
-			}
-
-
-			
-
-			.modal-wrapper-1{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-            
-        	.modal-wrapper-2{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-
-        	.modal-wrapper-3{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-
-        	.modal-wrapper-4{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal-wrapper-5{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal-wrapper-6{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal-wrapper-7{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal-wrapper-8{
-        		
-
-        		position: fixed;
-        		width: 100%;
-        		height: 100%;
-        		padding:0;
-        		margin: 0;
-        		top: -7px;
-        		left: 0;
-        		display: none;
-        		z-index: 800;
-        		
-        	}
-
-        	.modal {
-        		width: 270px;
-        		height: 443px;
-        		position: relative;
-        		bottom: -74px;
-                margin: 0 auto; 
-        		background-color: white;
-        		z-index: 800;
-
-        	} /*MODAL AND WRAPPER*/
-
-        	button {
-        		outline: none;
-        	}
-        	button:active {
-        		background-color: red;
-        	} /*IPHONE BUTTON FOR MODAL*/
-
-
-        	
-        	#app-1 {
-
-				background-image: url("icons/app-1.png");
-				background-size: cover;
-        	}
-
-        	#app-2 {
-
-				background-image: url("icons/app-2.png");
-				background-size: cover;
-        	}
-
-        	#app-3 {
-
-				background-image: url("icons/app-3.png");
-				background-size: cover;
-        	}
-
-        	#app-4 {
-
-				background-image: url("icons/app-4.png");
-				background-size: cover;
-        	}
-
-        	#app-5 {
-
-				background-image: url("icons/app-5.png");
-				background-size: cover;
-        	}
-
-        	#app-6 {
-
-				background-image: url("icons/app-6.png");
-				background-size: cover;
-        	}
-
-        	#app-7 {
-
-				background-image: url("icons/app-7.png");
-				background-size: cover;
-        	} 
-
-        	
-
-        	#app-25 {
-
-				background-image: url("icons/app-25.png");
-				background-size: cover;
-        	}
-
-        	#app-26 {
-
-				background-image: url("icons/app-26.png");
-				background-size: cover;
-        	}
-
-        	#app-27 {
-
-				background-image: url("icons/app-27.png");
-				background-size: cover;
-        	}
-
-        	#app-28 {
-
-				background-image: url("icons/app-28.png");
-				background-size: cover;
-        	}  /*ICONS*/
-
-
-        	
-
-
-		
-		  .modal-h1 {
-		  	z-index: 800;
-		  }
   </style>
 	
 	
@@ -578,6 +156,151 @@
 											</div>
 										</div>
 
+
+										<div class="modal-wrapper-9">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 9</h1>
+											</div>
+										</div>
+
+
+										<div class="modal-wrapper-10">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 10</h1>
+											</div>
+										</div>
+
+
+										<div class="modal-wrapper-11">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 11</h1>
+											</div>
+										</div>
+
+
+										<div class="modal-wrapper-12">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 12</h1>
+											</div>
+										</div>
+
+
+										<div class="modal-wrapper-13">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 13</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-14">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 14</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-15">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 15</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-16">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 16</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-17">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 17</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-18">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 18</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-19">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 19</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-20">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 20</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-21">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 21</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-22">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 22</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-23">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 23</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-24">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 24</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-8">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 8</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-8">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 8</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-8">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 8</h1>
+											</div>
+										</div>
+
+										<div class="modal-wrapper-8">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 8</h1>
+											</div>
+										</div>
+
 										
 									
 				
@@ -591,42 +314,41 @@
 			
 		
 
+	<script>
 
-
-		<script>        
-			  var mySwiper = new Swiper ('.swiper-container', {
-			    // Optional parameters
-			    direction: 'horizontal',
-			    loop: false,
-			    
-			    // If we need pagination
-			    pagination: '.swiper-pagination',
-			    
-			    // // Navigation arrows
-			    // nextButton: '.swiper-button-next',
-			    // prevButton: '.swiper-button-prev',
-			    
-			    // And if we need scrollbar
-			    // scrollbar: '.swiper-scrollbar',
-			  })   
-
-
-
-
-
-
-			  $(document).ready(function(e){
+    var mySwiper = new Swiper ('.swiper-container', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: false,
+                
+                // If we need pagination
+                pagination: '.swiper-pagination',
+                
+                // // Navigation arrows
+                // nextButton: '.swiper-button-next',
+                // prevButton: '.swiper-button-prev',
+                
+                // And if we need scrollbar
+                // scrollbar: '.swiper-scrollbar',
+              })   
 
 
 
 
 
 
-			  
+              $(document).ready(function(e){
 
 
 
-			  		//show modal function
+
+
+
+              
+
+
+
+                    //show modal function
                 function showModal1(){
                     $(".modal-wrapper-1").show();
                     
@@ -656,7 +378,7 @@
                     e.preventDefault();
                 });
 
-			  	
+                
 
 
 
@@ -675,11 +397,11 @@
 
 
 
-			  	
+                
 
 
 
-			  		//show modal function
+                    //show modal function
                 function showModal2(){
                     $(".modal-wrapper-2").show();
                     
@@ -709,7 +431,7 @@
                     e.preventDefault();
                 });
 
-			  
+              
 
 
 
@@ -729,11 +451,11 @@
 
 
 
-			  	
+                
 
 
 
-			  		//show modal function
+                    //show modal function
                 function showModal3(){
                     $(".modal-wrapper-3").show();
                     
@@ -763,7 +485,7 @@
                     e.preventDefault();
                 });
 
-			  	
+                
 
 
 
@@ -782,11 +504,11 @@
 
 
 
-			  	
+                
 
 
 
-			  		//show modal function
+                    //show modal function
                 function showModal4(){
                     $(".modal-wrapper-4").show();
                     
@@ -816,7 +538,7 @@
                     e.preventDefault();
                 });
 
-			  	
+                
 
 
 
@@ -836,11 +558,11 @@
 
 
 
-			  	
+                
 
 
 
-			  		//show modal function
+                    //show modal function
                 function showModal5(){
                     $(".modal-wrapper-5").show();
                     
@@ -870,7 +592,7 @@
                     e.preventDefault();
                 });
 
-			  	
+                
 
 
 
@@ -896,7 +618,7 @@
 
 
 
-			  		//show modal function
+                    //show modal function
                 function showModal6(){
                     $(".modal-wrapper-6").show();
                     
@@ -948,7 +670,7 @@
 
 
 
-			  		//show modal function
+                    //show modal function
                 function showModal7(){
                     $(".modal-wrapper-7").show();
                     
@@ -998,21 +720,21 @@
 
 
 
-			 
+             
 
 
 
-			  		//show modal function
-                function showModal8(){
-                    $(".modal-wrapper-8").show();
+                    //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
                     
                 }
 
 
 
                 //hide the modal function
-                function hideModal8() {
-                    $(".modal-wrapper-8").hide();
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
 
                     
                 }
@@ -1021,28 +743,1187 @@
 
 
                 $("#app-8").click(function(e){
-                    showModal8(); //show the modal method.
+                    showModal(); //show the modal method.
                     e.preventDefault();
                 });
 
 
                 //when button exit and no are clicked it will close the modal
                 $(".close-modal").click(function(e){
-                    hideModal8(); //hide the modal method.
+                    hideModal(); //hide the modal method.
                     e.preventDefault();
                 });
 
-			  	
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 //show modal function
+                function showModal(){
+                    $(".modal-wrapper-").show();
+                    
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-").hide();
+
+                    
+                }
+
+
+
+
+                $("#app-8").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+                
 
 
 
 
             });
+	</script>
 
-	  </script>
-
-
-	
 
 		
 
