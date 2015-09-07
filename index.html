@@ -385,6 +385,13 @@
 											</div>
 										</div>
 
+										<div class="modal-wrapper-2">
+											<div class="modal">
+												<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
+												<h1 class="modal-h1">App 2</h1>
+											</div>
+										</div>
+
 									
 				
 				</div> <!-- END OF IPHONE SCREEN -->
@@ -422,6 +429,51 @@
 
 
 			  $(document).ready(function(e){
+
+
+			  	$(".modal-wrapper-2").click(function(){
+
+			  		//show modal function
+                function showModal(){
+                    $(".modal-wrapper-2").show();
+                    $("body").addClass("modal-on");
+                }
+
+
+
+                //hide the modal function
+                function hideModal() {
+                    $(".modal-wrapper-2").hide();
+
+                    $("body").removeClass("modal-on"); //removes the transpo background
+                }
+
+
+
+
+                $(".showModal").click(function(e){
+                    showModal(); //show the modal method.
+                    e.preventDefault();
+                });
+
+
+                //when button exit and no are clicked it will close the modal
+                $(".close-modal").click(function(e){
+                    hideModal(); //hide the modal method.
+                    e.preventDefault();
+                });
+
+			  	})
+
+
+
+
+
+
+
+
+
+
 
                 //show modal function
                 function showModal(){
