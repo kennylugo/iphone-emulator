@@ -3,6 +3,10 @@
 	<head>
 		<title>iOS MockUp</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
 		<style type="text/css">
 
 		body {
@@ -11,6 +15,19 @@
 			background: #2980b9;
 		}
 		
+		/*BANNER*/
+		.banner {
+			position: relative;
+			top: 20px;
+			text-align: center;
+			color:white;
+			font-family: Helvetica;
+			font-size: 60px;
+			padding: 0;
+			margin: 0;
+		}
+		/*BANNER END*/
+
 
 		/*OUTTER IPHONE APPEARANCE */
 		.iphone {
@@ -72,7 +89,7 @@
 			border: 2px solid transparent;
 			width: 50px;
 			height: 50px;
-			position: absolute;
+			position: fixed;
 			bottom: 105px;
     		left: 818px;
 			
@@ -111,38 +128,45 @@
 		/*END IPHONE SCREEN*/
 
 
-		/*BANNER*/
-		.banner {
-			position: relative;
-			top: 20px;
-			text-align: center;
-			color:white;
-			font-family: Helvetica;
-			font-size: 60px;
-			padding: 0;
-			margin: 0;
-		}
-		/*BANNER END*/
-
-
-		</style>
+		
+		  
+  </style>
+	
+	
 
 	</head>
 
 	<body>
 
+
 		<h1 class="banner"><i class="fa fa-apple"></i> IOS MOCKUP</h1>
 
-		<div class="iphone">
-			<div class="iphone-camera-cover"> <div class="iphone-camera"></div> </div>
-			<div class="iphone-speaker"> </div>
+		<div class="iphone"> <!-- START OF THE WHOLE IPHONE -->
+				<!-- IPHONE CAMERA AND SPEAKER -->
+				<div class="iphone-camera-cover"> <div class="iphone-camera"></div> </div>
+				<div class="iphone-speaker"> </div>
+				<!-- END IPHONE CAMERA AND SPEAKER -->
+				
 
-			<div class="iphone-screen background-image">		</div></div>
+				<div class="iphone-screen background-image"> <!-- START OF IPHONE SCREEN -->
+				
+				</div> <!-- END OF IPHONE SCREEN -->
+				
 
-			<button class="iphone-button">	<div class="button-decal">	</div></button>
-		</div>
- 
-		  
+
+				<button class="iphone-button">	<div class="button-decal">	</div></button> <!-- IPHONE BUTTON -->
+		</div> <!-- END OF THE WHOLE IPHONE --> 
+
+			
+		
+
+
+
+
+
+
+
+		
 
 
 	</body>
