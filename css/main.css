@@ -178,7 +178,7 @@ body {
 				width: 45px;
 				height: 46px;
 				float: left;
-				background-color: purple;
+				background-color: transparent;
 				margin: 5px;
 				margin-left: 13px;
 				margin-bottom: 8px;
@@ -191,7 +191,7 @@ body {
 				width: 45px;
 				height: 46px;
 				float: left;
-				background-color: purple;
+				background-color: transparent;
 				margin: 3px;
 				margin-left: 15px;
 				border-radius: 15px;
