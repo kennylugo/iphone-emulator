@@ -12,7 +12,7 @@
 		}
 		
 
-
+		/*OUTTER IPHONE APPEARANCE */
 		.iphone {
 			background-color: #1A1A1A;
 			width: 300px;
@@ -20,9 +20,7 @@
 			margin-left: auto;
 			margin-right: auto;
 			border-radius: 50px;
-
 			border: 3px solid #bdc3c7;
-
 			position: absolute;
 		    top: 55%;
 		    left: 50%;
@@ -31,6 +29,43 @@
 
 		}
 
+		.iphone-camera-cover {
+		    background-color: #2B2B2B;
+		    border-radius: 50px;
+		    border: 2px solid transparent;
+		    width: 10px;
+		    height: 10px;
+		    position: absolute;
+		    top: 18px;
+		    left: 148px;
+		}
+
+		.iphone-camera {
+		    background-color: #bdc3c7;
+		    border-radius: 50px;
+		    width: 5px;
+		    height: 5px;
+		    position: relative;
+		    top: 3px;
+		    left: 2.5px;
+		}
+
+		
+
+		.iphone-speaker {
+			background-color: #2B2B2B;
+			border-radius: 50px;
+			border: 2px solid transparent;
+			width: 50px;
+			height: 5px;
+			position: absolute;
+			top: 40px;
+			left: 127px;
+			
+			
+		}
+
+		
 		.iphone-button {
 			background-color: #2B2B2B;
 			border-radius: 50px;
@@ -38,8 +73,8 @@
 			width: 50px;
 			height: 50px;
 			position: absolute;
-			bottom: 15px;
-			left: 127px;
+			bottom: 105px;
+    		left: 818px;
 			
 			
 		}
@@ -54,7 +89,10 @@
 			left: 4px;
     		top: 1px;
 		}
+		/*END OUTTER IPHONE APPEARANCE*/
 
+
+		/*IPHONE SCREEN*/
 		.iphone-screen {
 		    background-color: white;
 		    width: 270px;
@@ -70,7 +108,10 @@
 			background-image: url("iphone-bg.png");
 			background-size: cover;
 		}
+		/*END IPHONE SCREEN*/
 
+
+		/*BANNER*/
 		.banner {
 			position: relative;
 			top: 20px;
@@ -80,8 +121,8 @@
 			font-size: 60px;
 			padding: 0;
 			margin: 0;
-
 		}
+		/*BANNER END*/
 
 
 		</style>
@@ -93,7 +134,11 @@
 		<h1 class="banner"><i class="fa fa-apple"></i> IOS MOCKUP</h1>
 
 		<div class="iphone">
-			<div class="iphone-screen">	<div class="background-image">	</div></div>
+			<div class="iphone-camera-cover"> <div class="iphone-camera"></div> </div>
+			<div class="iphone-speaker"> </div>
+
+			<div class="iphone-screen background-image">		</div></div>
+
 			<button class="iphone-button">	<div class="button-decal">	</div></button>
 		</div>
  
