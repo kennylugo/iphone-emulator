@@ -803,7 +803,11 @@ body {
 				background-size: cover;
         	}  /*ICONS*/
 
-
+			
+			.fa-battery-three-quarters{
+				float: right;
+				margin-right: 4px;
+			}
         	
 
 
