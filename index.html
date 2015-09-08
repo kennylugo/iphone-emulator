@@ -24,6 +24,8 @@
 
 	<body>
 		<h1 class="banner"><i class="fa fa-apple"></i>kenOS<i class="fa fa-apple"></i></h1>
+
+		<div class="test">Yo</div>
 		
 		<div class="iphone"> <!-- START OF THE WHOLE IPHONE -->
 				<div class="iphone-camera-cover"> <div class="iphone-camera"></div> </div>
@@ -89,15 +91,6 @@
 
 										<div class="modal-wrapper-2">
 											<div class="modal">
-												
-												<div class="photos-app">
-													<div class="photo-number-1"></div>
-													<div class="photo-number-2"></div>
-													<div class="photo-number-3"></div>
-													<div class="photo-number-4"></div>
-													<div class="photo-number-5"></div>
-													<div class="photo-number-6"></div>
-												</div>
 
 												<h1 class="modal-h1">App 2</h1>
 											</div>
@@ -290,7 +283,9 @@
 
 		    
 				$(document).ready(function(){
-					$(".fa-apple").css("background-color","red");
+					$(".test").hover(function(){
+						$(this).animate({width:300px,height:300px},4000)
+					})
 				})
 			
 			
