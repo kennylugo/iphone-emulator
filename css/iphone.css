@@ -1,0 +1,180 @@
+/*OUTTER IPHONE APPEARANCE */
+		.iphone {
+			background-color: #1A1A1A;
+			width: 300px;
+			height: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 50px;
+			border: 3px solid #bdc3c7;
+			position: absolute;
+		    top: 55%;
+		    left: 50%;
+		    -webkit-transform: translateX(-50%) translateY(-50%);
+
+
+		}
+
+		.iphone-camera-cover {
+		    background-color: #2B2B2B;
+		    border-radius: 50px;
+		    border: 2px solid transparent;
+		    width: 10px;
+		    height: 10px;
+		    position: absolute;
+		    top: 18px;
+		    left: 148px;
+		}
+
+		.iphone-camera {
+		    background-color: #bdc3c7;
+		    border-radius: 50px;
+		    width: 5px;
+		    height: 5px;
+		    position: relative;
+		    top: 3px;
+		    left: 2.5px;
+		}
+
+		
+
+		.iphone-speaker {
+			background-color: #2B2B2B;
+			border-radius: 50px;
+			border: 2px solid transparent;
+			width: 50px;
+			height: 5px;
+			position: absolute;
+			top: 40px;
+			left: 127px;
+			
+			
+		}
+
+		
+		.iphone-button {
+			background-color: #2B2B2B;
+		    border-radius: 50px;
+		    border: 2px solid transparent;
+		    width: 50px;
+		    height: 50px;
+		    position: fixed;
+		    bottom: 15px;
+		    left: 124px;
+			
+			
+		}
+
+		.button-decal {
+			background-color: transparent;
+			border: 3px solid darkgrey;
+			border-radius: 7px;
+			width: 20px;
+			height: 20px;
+			position: relative;
+			left: 4px;
+    		top: 1px;
+		}
+		/*END OUTTER IPHONE APPEARANCE*/
+
+
+		/*IPHONE SCREEN*/
+		.iphone-screen {
+		    background-color: white;
+		    width: 270px;
+		    height: 443px;
+		    position: relative;
+		    left: 15px;
+		    top: 74px;
+		}
+
+		.background-image {
+			width: 270px;
+			height: 443px;
+			background-image: url("../iphone-bg2.png");
+			background-size: cover;
+		}
+		/*END IPHONE SCREEN*/
+		
+		/*SWIPER */
+		.swiper-container {
+		    width: 270px;
+		    height: 372px;
+		    position: relative;
+		    top: 0px;
+		    margin: 0;
+
+		    
+			} 
+
+			.swiper-wrapper {
+				width: 270px;
+		   		height: 344px;
+		   		margin: 0;
+			}
+
+			.swiper-slide {
+				width: 270px;
+		   		height: 376px;
+		   		margin: 0;
+			}
+
+			.first-slide {
+				margin: 0;
+				background-color: transparent;
+				
+			}
+			.second-slide {
+				background-color:transparent;
+				
+			}
+		/*SWIPER END*/
+
+
+			.dock {
+				background-color: rgba(148,140,148,0.91);
+			    position: relative;
+			    bottom: 4px;
+			    width: 270;
+			    height: 60px;
+			    margin: 0;
+			    
+			} /*DOCK*/
+
+			.status-bar {
+				background-color: white;
+				position: relative;
+				top: 0px;
+				width: 270;
+				height: 15px;
+			} /*STATUS BAR*/
+
+			/*.swiper-pagination {
+				position: relative;
+				bottom: 0px;
+			}*/ /*pagination*/
+
+			.apps {
+				width: 45px;
+				height: 46px;
+				float: left;
+				background-color: transparent;
+				margin: 5px;
+				margin-left: 13px;
+				margin-bottom: 8px;
+				margin-top: 13px;
+				border-radius: 15px;
+			}
+
+			.dock-apps {
+
+				width: 45px;
+				height: 46px;
+				float: left;
+				background-color: transparent;
+				margin: 7px;
+				margin-left: 13px;
+				border-radius: 15px;
+
+
+			}
