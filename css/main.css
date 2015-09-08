@@ -1,7 +1,7 @@
 body {
 			margin: 0;
 			padding: 0;
-			background: #2980b9;
+			background: #3498db;
 		}
 		
 		/*BANNER*/
@@ -111,7 +111,7 @@ body {
 		.background-image {
 			width: 270px;
 			height: 443px;
-			background-image: url("../iphone-bg.png");
+			background-image: url("../iphone-bg2.png");
 			background-size: cover;
 		}
 		/*END IPHONE SCREEN*/
