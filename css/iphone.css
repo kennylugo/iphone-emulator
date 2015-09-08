@@ -166,8 +166,209 @@
 				border-radius: 15px;
 			}
 
-			.dock-apps {
 
+
+			#app-1 {
+
+				background-image: url("../icons/app-1.png");
+				background-size: cover;
+        	}
+
+        	#app-2 {
+
+				background-image: url("../icons/app-2.png");
+				background-size: cover;
+        	}
+
+        	#app-3 {
+
+				background-image: url("../icons/app-3.png");
+				background-size: cover;
+        	}
+
+        	#app-4 {
+
+				background-image: url("../icons/app-4.png");
+				background-size: cover;
+        	}
+
+        	#app-5 {
+
+				background-image: url("../icons/app-5.png");
+				background-size: cover;
+        	}
+
+        	#app-6 {
+
+				background-image: url("../icons/app-6.png");
+				background-size: cover;
+        	}
+
+        	#app-7 {
+
+				background-image: url("../icons/app-7.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-8 {
+
+				background-image: url("../icons/app-8.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-9 {
+
+				background-image: url("../icons/app-9.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-10 {
+
+				background-image: url("../icons/app-10.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-11 {
+
+				background-image: url("../icons/app-11.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-12 {
+
+				background-image: url("../icons/app-12.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-13 {
+
+				background-image: url("../icons/app-13.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-14 {
+
+				background-image: url("../icons/app-14.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-15 {
+
+				background-image: url("../icons/app-15.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-16 {
+
+				background-image: url("../icons/app-16.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-17 {
+
+				background-image: url("../icons/app-17.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-18 {
+
+				background-image: url("../icons/app-18.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-19 {
+
+				background-image: url("../icons/app-19.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-20 {
+
+				background-image: url("../icons/app-20.png");
+				background-size: cover;
+        	} 
+
+
+        	#app-21 {
+
+				background-image: url("../icons/app-21.png");
+				background-size: cover;
+        	} 
+
+        	#app-22 {
+
+				background-image: url("../icons/app-22.png");
+				background-size: cover;
+        	}
+
+        	#app-23 {
+
+				background-image: url("../icons/app-23.png");
+				background-size: cover;
+        	}
+        	#app-24 {
+
+				background-image: url("../icons/app-24.png");
+				background-size: cover;
+        	}
+
+        	#app-0 {
+
+				background-image: url("../icons/app-0.png");
+				background-size: cover;
+        	}
+
+        	
+
+        	#app-25 {
+
+				background-image: url("../icons/app-25.png");
+				background-size: cover;
+        	}
+
+        	#app-26 {
+
+				background-image: url("../icons/app-26.png");
+				background-size: cover;
+        	}
+
+        	#app-27 {
+
+				background-image: url("../icons/app-27.png");
+				background-size: cover;
+        	}
+
+        	#app-28 {
+
+				background-image: url("../icons/app-28.png");
+				background-size: cover;
+        	}  /*ICONS*/
+
+			
+			.fa-battery-three-quarters{
+				float: right;
+				margin-right: 4px;
+			}
+
+			.fa-apple {
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+
+			.dock-apps {
 				width: 45px;
 				height: 46px;
 				float: left;
@@ -175,6 +376,14 @@
 				margin: 7px;
 				margin-left: 13px;
 				border-radius: 15px;
-
-
 			}
+			
+
+
+			button {
+        		outline: none;
+        	}
+        	button:active {
+        		background-color: #403F3F;
+        	} /*IPHONE BUTTON FOR MODAL*/
+		
