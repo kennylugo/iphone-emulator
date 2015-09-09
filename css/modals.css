@@ -7,7 +7,40 @@
         		background-color: white;
         		z-index: 800;
 
-        	} /*MODAL AND WRAPPER*/
+        	} 
+
+
+                .modal-19 {
+                        width: 270px;
+                        height: 470px;
+                        position: relative;
+                        bottom: -74px;
+                         margin: 0 auto; 
+                        background-color: black;
+                        z-index: 800;
+
+                } 
+
+                .modal-19 div {
+                        position: relative;
+                        top: 90px;
+
+                } 
+
+                .clock {
+                        position: relative;
+                        top: 50px;
+                }
+
+
+
+
+
+
+
+
+
+                /*MODAL AND WRAPPER*/
 
 
 				.modal-wrapper-1 {
@@ -267,6 +300,8 @@
         		display: none;
         		z-index: 800;
 				}
+
+
 				.modal-wrapper-20 {
 					position: relative;
         		width: 100%;

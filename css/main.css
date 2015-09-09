@@ -24,3 +24,27 @@ body {
 		  .modal-h1 {
 		  	z-index: 800;
 		  }
+
+			
+			textarea {
+				width: 265px;
+				height: 460px;
+				resize:none;
+				font-family: Helvetica;
+				font-size: 24px;
+				font-weight: bold;
+				background-color: beige;
+				outline: none;
+			}
+
+
+			.calendar {
+				width:270px;
+				height: 443px;
+				border: none;
+			}
+
+
+			.modal-5 {
+				height: 460px;
+			}
