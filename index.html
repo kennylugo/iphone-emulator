@@ -1289,7 +1289,35 @@
 // -------------------OPEN APP MODALS END------------------------------------------------------------------------
 
 
-            });
+            });	
+
+
+
+
+
+
+
+
+
+			navigator.getUserMedia = (navigator.getUserMedia || 
+                          navigator.webkitGetUserMedia || 
+                          navigator.mozGetUserMedia || 
+                          navigator.msGetUserMedia);
+   if (navigator.getUserMedia) {
+      navigator.getUserMedia(
+         {
+            video:true,
+            audio:false
+         },        
+         function(stream) { /* do something */ },
+         function(error) { /* do something */ }
+      );
+   }
+   else {
+      alert('Sorry, the browser you are using doesn\'t support getUserMedia');
+      return;
+    }
+ 
 
 
 
