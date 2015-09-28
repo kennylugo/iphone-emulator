@@ -47,4 +47,22 @@ body {
 
 			.modal-5 {
 				height: 460px;
+			}	
+
+
+			footer {
+				position: absolute;
+				bottom: 0px;
+				background-color: black;
+				width: 100%;
+				height: 20px;
+				color: white;
+				font-family: Helvetica; 
+				text-align: center;
 			}
+
+			footer p {
+				padding-left: 40%; 
+			}
+
+
