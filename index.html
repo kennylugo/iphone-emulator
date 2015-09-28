@@ -113,8 +113,8 @@
 										<div class="modal-wrapper-5">
 											<div class="modal modal-5">
 												
-												<!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96708.31114185986!2d-73.96923099999998!3d40.75906150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1441764402810" width="270" height="470" frameborder="0" style="border:0" allowfullscreen>
-												</iframe>-->
+												<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96708.31114185986!2d-73.96923099999998!3d40.75906150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1441764402810" width="270" height="470" frameborder="0" style="border:0" allowfullscreen>
+												</iframe>
 											</div>
 										</div>
 
@@ -140,9 +140,9 @@
 
 										<div class="modal-wrapper-9">
 											<div class="modal modal-9">
-												<!--<iframe width="270px" height="470px" src="http://web2.0calc.com/widgets/vertical/?options=%7B%22angular%22%3A%22deg%22%2C%22options%22%3A%22hide%22%2C%22menu%22%3A%22show%22%7D" scrolling="no" > 
-												</iframe>-->
-												<br />
+												<iframe width="270px" height="470px" src="http://web2.0calc.com/widgets/vertical/?options=%7B%22angular%22%3A%22deg%22%2C%22options%22%3A%22hide%22%2C%22menu%22%3A%22show%22%7D" scrolling="no" > 
+												</iframe>
+												
 												
 
 											</div>
@@ -216,7 +216,7 @@
 
 										<div class="modal-wrapper-20">
 											<div class="modal modal-20">
-												<!--<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>-->
+												<!-- <iframe src="https://www.peoplesmart.com" width="270" height="470" frameborder="0"></iframe> -->
 											</div>
 										</div>
 
@@ -234,8 +234,8 @@
 
 										<div class="modal-wrapper-23">
 											<div class="modal modal-23">
-												<!--<iframe width="270px" height="470px" src="http://web2.0calc.com/widgets/vertical/?options=%7B%22angular%22%3A%22deg%22%2C%22options%22%3A%22hide%22%2C%22menu%22%3A%22show%22%7D" scrolling="no" > 
-												</iframe>-->
+												<iframe width="270px" height="470px" src="http://web2.0calc.com/widgets/vertical/?options=%7B%22angular%22%3A%22deg%22%2C%22options%22%3A%22hide%22%2C%22menu%22%3A%22show%22%7D" scrolling="no" > 
+												</iframe>
 											</div>
 										</div>
 
@@ -306,6 +306,20 @@
        
 // -------------------OPEN APP MODALS BEGINNING------------------------------------------------------------------------
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                             //show modal function
                         function showModal1(){
                             $(".modal-wrapper-1").show();
@@ -350,6 +364,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                             //show modal function
                         function showModal2(){
                             $(".modal-wrapper-2").show();
@@ -369,7 +397,7 @@
                         $("#app-2").click(function(e){
                             showModal2(); //show the modal method.
 
-                            $(".modal-2").append('<iframe src="https://unsplash.com" width="270" height="470" frameborder="0"></iframe>');
+                            $(".modal-2").append('<iframe class="photos" src="https://unsplash.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -379,9 +407,24 @@
                         $(".close-modal").click(function(e){
                             hideModal2(); //hide the modal method.
                             e.preventDefault();
+                            $(".photos").hide();
                         });
 
                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                             //show modal function
@@ -404,7 +447,7 @@
                         $("#app-3").click(function(e){
                             showModal3(); //show the modal method.
 
-                            $(".modal-3").append('<iframe src="http://html5-demos.appspot.com/static/getusermedia/photobooth.html" width="270" height="470" frameborder="0"></iframe>');
+                            $(".modal-3").append('<iframe class="camera" src="http://html5-demos.appspot.com/static/getusermedia/photobooth.html" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -414,7 +457,30 @@
                         $(".close-modal").click(function(e){
                             hideModal3(); //hide the modal method.
                             e.preventDefault();
+                            $(".camera").hide();
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                             //show modal function
@@ -436,7 +502,7 @@
                         $("#app-4").click(function(e){
                             showModal4(); //show the modal method.
 
-                            $(".modal-4").append('<iframe src="http://m.weather.com/weather/today/USNY0998" width="270" height="470" frameborder="0"></iframe>');
+                            $(".modal-4").append('<iframe class="weather" src="http://m.weather.com/weather/today/USNY0998" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -446,7 +512,30 @@
                         $(".close-modal").click(function(e){
                             hideModal4(); //hide the modal method.
                             e.preventDefault();
+                            $(".weather").hide();
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                             //show modal function
                         function showModal5(){
@@ -467,7 +556,8 @@
                         $("#app-5").click(function(e){
                             showModal5(); //show the modal method.
 
-                            $(".modal-5").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+            //                 $(".modal-5").append('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96708.31114185986!2d-73.96923099999998!3d40.75906150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1441764402810" width="270" height="470" frameborder="0" style="border:0" allowfullscreen>
+												// </iframe>');
 
                             e.preventDefault();
                         });
@@ -478,6 +568,20 @@
                             hideModal5(); //hide the modal method.
                             e.preventDefault();
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                             //show modal function
@@ -500,7 +604,7 @@
                         $("#app-6").click(function(e){
                             showModal6(); //show the modal method.
 
-                            $(".modal-6").append('<textarea placeholder="Type Here"></textarea>');
+                            $(".modal-6").append('<textarea class="notes" placeholder="Type Here"></textarea>');
 
                             e.preventDefault();
                         });
@@ -510,7 +614,22 @@
                         $(".close-modal").click(function(e){
                             hideModal6(); //hide the modal method.
                             e.preventDefault();
+                            $(".notes").hide();
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -534,7 +653,7 @@
                         $("#app-7").click(function(e){
                             showModal7(); //show the modal method.
 
-                            $(".modal-7").append('<iframe src="https://fnd.io/#/" width="270" height="470" frameborder="0"></iframe>');
+                            $(".modal-7").append('<iframe class="appstore" src="https://fnd.io/#/" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -544,10 +663,25 @@
                         $(".close-modal").click(function(e){
                             hideModal7(); //hide the modal method.
                             e.preventDefault();
+                            $(".appstore").hide();
                         });
 
 
                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -572,7 +706,7 @@
                         $("#app-8").click(function(e){
                             showModal8(); //show the modal method.
 
-                            $(".modal-8").append('<iframe src="http://www.tutorialspoint.com/unix_terminal_online.php" width="270" height="470" frameborder="0"></iframe>');
+                            $(".modal-8").append('<iframe class="settings" src="http://www.tutorialspoint.com/unix_terminal_online.php" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -582,7 +716,22 @@
                         $(".close-modal").click(function(e){
                             hideModal8(); //hide the modal method.
                             e.preventDefault();
+                            $(".settings").hide();
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -608,8 +757,7 @@
                         $("#app-9").click(function(e){
                             showModal9(); //show the modal method.
 
-                            $(".modal-9").append('<iframe width="270px" height="470px" src="http://web2.0calc.com/widgets/vertical/?options=%7B%22angular%22%3A%22deg%22%2C%22options%22%3A%22hide%22%2C%22menu%22%3A%22show%22%7D" scrolling="no" > 
-												</iframe>');
+                           
 
                             e.preventDefault();
                         });
@@ -620,6 +768,20 @@
                             hideModal9(); //hide the modal method.
                             e.preventDefault();
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -655,7 +817,7 @@
                         $("#app-10").click(function(e){
                             showModal10(); //show the modal method.
 
-                            $(".modal-10").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-10").append('<iframe class="contacts" src="https://www.peoplesmart.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -665,7 +827,22 @@
                         $(".close-modal").click(function(e){
                             hideModal10(); //hide the modal method.
                             e.preventDefault();
+                            $(".contacts").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -691,7 +868,7 @@
                         $("#app-11").click(function(e){
                             showModal11(); //show the modal method.
 
-                            $(".modal-11").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-11").append('<iframe class="appleMusic" src="http://www.klove.com/listen/player.aspx" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -701,7 +878,22 @@
                         $(".close-modal").click(function(e){
                             hideModal11(); //hide the modal method.
                             e.preventDefault();
+                            $(".appleMusic").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -727,7 +919,7 @@
                         $("#app-12").click(function(e){
                             showModal12(); //show the modal method.
 
-                            $(".modal-12").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-12").append('<iframe class="video" width="270" height="470" src="https://www.youtube.com/embed/orPHNS-0CZI" frameborder="0" allowfullscreen></iframe>');
 
                             e.preventDefault();
                         });
@@ -737,7 +929,22 @@
                         $(".close-modal").click(function(e){
                             hideModal12(); //hide the modal method.
                             e.preventDefault();
+                            $(".video").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -765,7 +972,7 @@
                         $("#app-13").click(function(e){
                             showModal13(); //show the modal method.
 
-                            $(".modal-13").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-13").append('<iframe class="soundCloud" src="http://www.klove.com/listen/player.aspx" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -775,7 +982,22 @@
                         $(".close-modal").click(function(e){
                             hideModal13(); //hide the modal method.
                             e.preventDefault();
+                            $(".soundCloud").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -803,7 +1025,7 @@
                         $("#app-14").click(function(e){
                             showModal14(); //show the modal method.
 
-                            $(".modal-14").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-14").append('<iframe class="reminders" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -813,7 +1035,22 @@
                         $(".close-modal").click(function(e){
                             hideModal14(); //hide the modal method.
                             e.preventDefault();
+                            $(".reminders").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -841,7 +1078,7 @@
                         $("#app-15").click(function(e){
                             showModal15(); //show the modal method.
 
-                            $(".modal-15").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-15").append('<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -851,7 +1088,22 @@
                         $(".close-modal").click(function(e){
                             hideModal15(); //hide the modal method.
                             e.preventDefault();
+                            $().hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -880,7 +1132,7 @@
                         $("#app-16").click(function(e){
                             showModal16(); //show the modal method.
 
-                            $(".modal-16").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-16").append('<iframe class="news" src="http://www.usatoday.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -890,7 +1142,22 @@
                         $(".close-modal").click(function(e){
                             hideModal16(); //hide the modal method.
                             e.preventDefault();
+                            $(".news").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -919,7 +1186,7 @@
                         $("#app-17").click(function(e){
                             showModal17(); //show the modal method.
 
-                            $(".modal-17").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-17").append('<iframe class="instagram" src="https://unsplash.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -929,7 +1196,22 @@
                         $(".close-modal").click(function(e){
                             hideModal17(); //hide the modal method.
                             e.preventDefault();
+                            $(".instagram").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -955,7 +1237,7 @@
                         $("#app-18").click(function(e){
                             showModal18(); //show the modal method.
 
-                            $(".modal-18").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-18").append('<iframe class="stocks" src="http://www.marketwatch.com/m/quote/COMP" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -965,7 +1247,22 @@
                         $(".close-modal").click(function(e){
                             hideModal18(); //hide the modal method.
                             e.preventDefault();
+                            $(".stocks").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -990,7 +1287,7 @@
                         $("#app-19").click(function(e){
                             showModal19(); //show the modal method.
 
-                            $(".modal-19").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-19").append('<iframe class="clock" src="http://www.clocktab.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -1000,7 +1297,22 @@
                         $(".close-modal").click(function(e){
                             hideModal19(); //hide the modal method.
                             e.preventDefault();
+                            $(".clock").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1028,7 +1340,7 @@
                         $("#app-20").click(function(e){
                             showModal20(); //show the modal method.
 
-                            $(".modal-20").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-20").append('<iframe class="facebook" src="https://www.peoplesmart.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -1038,7 +1350,22 @@
                         $(".close-modal").click(function(e){
                             hideModal20(); //hide the modal method.
                             e.preventDefault();
+                            $(".facebook").hide();
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1066,7 +1393,7 @@
                         $("#app-21").click(function(e){
                             showModal21(); //show the modal method.
 
-                            $(".modal-21").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-21").append('<iframe class="pass" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -1076,7 +1403,22 @@
                         $(".close-modal").click(function(e){
                             hideModal21(); //hide the modal method.
                             e.preventDefault();
+                            $(".pass").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1101,7 +1443,7 @@
                         $("#app-22").click(function(e){
                             showModal22(); //show the modal method.
 
-                            $(".modal-22").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-22").append('<iframe class="pass" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -1111,7 +1453,22 @@
                         $(".close-modal").click(function(e){
                             hideModal22(); //hide the modal method.
                             e.preventDefault();
+                            $(".pass").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1138,7 +1495,7 @@
                         $("#app-23").click(function(e){
                             showModal23(); //show the modal method.
 
-                            $(".modal-23").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            
 
                             e.preventDefault();
                         });
@@ -1148,7 +1505,22 @@
                         $(".close-modal").click(function(e){
                             hideModal23(); //hide the modal method.
                             e.preventDefault();
+                            
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1177,7 +1549,7 @@
                         $("#app-24").click(function(e){
                             showModal24(); //show the modal method.
 
-                            $(".modal-24").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                             $(".modal-24").append('<iframe class="video" width="270" height="470" src="https://www.youtube.com/embed/orPHNS-0CZI" frameborder="0" allowfullscreen></iframe>');
 
                             e.preventDefault();
                         });
@@ -1187,7 +1559,22 @@
                         $(".close-modal").click(function(e){
                             hideModal24(); //hide the modal method.
                             e.preventDefault();
+                            $(".video").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1214,7 +1601,7 @@
                         $("#app-25").click(function(e){
                             showModal25(); //show the modal method.
 
-                            $(".modal-25").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-25").append('<iframe class="messages" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -1224,7 +1611,22 @@
                         $(".close-modal").click(function(e){
                             hideModal25(); //hide the modal method.
                             e.preventDefault();
+                            $(".messages").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1252,7 +1654,7 @@
                         $("#app-26").click(function(e){
                             showModal26(); //show the modal method.
 
-                            $(".modal-26").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-26").append('<iframe class="browser" src="http://devdocs.io" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -1262,7 +1664,22 @@
                         $(".close-modal").click(function(e){
                             hideModal26(); //hide the modal method.
                             e.preventDefault();
+                            $(".browser").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1290,7 +1707,7 @@
                         $("#app-27").click(function(e){
                             showModal27(); //show the modal method.
 
-                            $(".modal-27").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-27").append('<iframe class="phone" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -1300,7 +1717,22 @@
                         $(".close-modal").click(function(e){
                             hideModal27(); //hide the modal method.
                             e.preventDefault();
+                            $(".phone").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1327,7 +1759,7 @@
                         $("#app-28").click(function(e){
                             showModal28(); //show the modal method.
 
-                            $(".modal-28").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
+                            $(".modal-28").append('<iframe class="messenger" src="https://multimessenger.co" width="270" height="470" frameborder="0"></iframe>');
 
                             e.preventDefault();
                         });
@@ -1337,7 +1769,22 @@
                         $(".close-modal").click(function(e){
                             hideModal28(); //hide the modal method.
                             e.preventDefault();
+                            $(".messenger").hide()
                         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1376,6 +1823,7 @@
                         $(".close-modal").click(function(e){
                             hideModal29(); //hide the modal method.
                             e.preventDefault();
+                            $().hide()
                         });
 
 // -------------------OPEN APP MODALS END------------------------------------------------------------------------
