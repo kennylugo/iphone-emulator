@@ -16,6 +16,7 @@ $(document).ready(function(e){
                         }
 
                         $("#app-1").click(function(e){
+                            console.log(this);
                             showModal1(); //show the modal method.
                             e.preventDefault();
                         });
@@ -26,6 +27,15 @@ $(document).ready(function(e){
                             hideModal1(); //hide the modal method.
                             e.preventDefault();
                         });
+
+
+
+
+
+
+
+
+
 
 
                             //show modal function
