@@ -1,4 +1,4 @@
-# iphone-emulator - Final Front-End Project for The New York Code & Design Academy
+# iPhone-emulator - Final Front-End Project for The New York Code & Design Academy
 iOS built with Front-End Technologies (HTML,CSS,JS/JQUERY) 
 
 [Click here to see it live!](https://kennybatista.github.io/iphone-emulator)
