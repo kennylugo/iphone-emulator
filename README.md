@@ -1,5 +1,6 @@
 # iPhone-emulator - Final Front-End Project for The New York Code & Design Academy
 
+### Technical 
 iPhone + iOS entirely built with Front-End Technologies (HTML,CSS,JavaScript) 
 
 The whole UI was built with CSS elements, including the phone's speaker, camera, home button!
