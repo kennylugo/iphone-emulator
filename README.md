@@ -8,7 +8,7 @@ All the interactions where built with JavaScript, including the actions when the
 
 [Click here to see it live!!!](https://kennybatista.github.io/iphone-emulator)
 
-### Story
+### The Story
 
 On the last week of my course, my Front-End Web Development teacher was going around asking students what they wanted to build for their final projects. The majority of them stated that they wanted to build a portfolio or a buy and sell site. I did not want to build something that was already built or that everyone was doing, so when the teacher sat next to me and asked me what I wanted to do I told her that I wanted to emulate Apple's iOS using HTML,CSS, and JavaScript. She laughed and said that I didn't have enough skills yet and that I only had four days to work on this. That day I went home with a growth and determined mindset, I wasn't going go to sleep until I was done building my emulated iOS. 
 
