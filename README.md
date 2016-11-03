@@ -14,4 +14,5 @@ On the last week of my course, my Front-End Web Development teacher was going ar
 
 I started working non-stop and didn't sleep for three days straight, I kept myself up by drinking cans of Red-Bull every time I felt sleepy. I finished building the project and when class started showed her, I saw her eyes open up immensely as she said "WOW, every semester there's that one student that blows my mind, and this time it's you!". The gratification after building this project and surprising her motivated me to work hard towards success, I learned to love to blow peoples mind after proving them wrong. 
 
+
 ![alt tag](https://github.com/kennybatista/iphone-emulator/blob/master/kenOS-iphone-emulator-by-kenny-batista.png)
