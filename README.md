@@ -1,4 +1,5 @@
-# iPhone-emulator - Final Front-End Project for The New York Code & Design Academy
+
+# iPhone-emulator - Front-End Project 
 
 ### Technical Details
 iPhone + iOS entirely built with Front-End Technologies (HTML,CSS,JavaScript) 
