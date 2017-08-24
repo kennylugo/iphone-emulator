@@ -1,13 +1,13 @@
-body {
+		body {
 			margin: 0;
-			padding: 0;
+			padding: 0rem;
 			background: #3498db;
+			position: relative;
+
 		}
 		
 		/*BANNER*/
 		.banner {
-			position: relative;
-			top: 20px;
 			text-align: center;
 			color:white;
 			font-family: Helvetica;
@@ -50,19 +50,25 @@ body {
 			}	
 
 
-			footer {
+			.footer {
+				
 				position: absolute;
-				bottom: 0px;
+
+				right: 0;
+				bottom: : 0;
+				left: 0;
+				padding: 10px;
 				background-color: black;
-				width: 100%;
-				height: 20px;
-				color: white;
-				font-family: Helvetica; 
 				text-align: center;
+				color: white;
+				font-family: Helvetica;
+				
 			}
 
-			footer p {
-				padding-left: 40%; 
+			
+			.content {
+				/*background-color: red;*/
+				height: 750px;
 			}
 
 

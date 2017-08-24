@@ -18,12 +18,15 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.jquery.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.jquery.min.js"></script>
-		
+		<script src="javascript/app-modals.js"></script>
+		<script src="javascript/main.js"></script>
 	</head>
+	
+	
+	<body>
 
-
-
-		<h1 class="banner"><i class="fa fa-apple"></i>KennyOS<i class="fa fa-apple"></i></h1>
+		<div class="content">
+			<h1 class="banner"><i class="fa fa-apple"></i>KennyOS<i class="fa fa-apple"></i></h1>
 		
 		<div class="iphone"> <!-- START OF THE WHOLE IPHONE -->
 				<div class="iphone-camera-cover"> <div class="iphone-camera"></div> </div>
@@ -37,8 +40,7 @@
 										    <!-- Additional required wrapper -->
 										    <div class="swiper-wrapper">
 										        <!-- Slides -->
-										        <div class
-										        ="swiper-slide first-slide">
+										        <div class="swiper-slide first-slide">
 										        	<div class="apps showModal" id="app-1"></div>
 										        	<div class="apps showModal" id="app-2"> </div>
 										        	<div class="apps showModal" id="app-3"> </div>
@@ -66,7 +68,7 @@
 										        	<div class="apps showModals" id="app-22"></div>
 										        	<div class="apps showModals" id="app-23"></div>
 										        	<div class="apps showModals" id="app-24"></div>
-										        	
+										        	<div class="apps showModals" id="app-0"></div>
 										        </div>
 											</div>
 											    <!-- If we need pagination -->
@@ -82,213 +84,196 @@
 										</div>
 
 										<div class="modal-wrapper-1">
-											<div class="modal modal-1">
-												<!--<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1"><iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe></h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-2">
-											<div class="modal modal-2">
+											<div class="modal">
 												
-												<!--<iframe src="https://unsplash.com" width="270" height="470" frameborder="0"></iframe>-->
+												<div class="photos-app">
+													<div class="photo-number-1"></div>
+													<div class="photo-number-2"></div>
+													<div class="photo-number-3"></div>
+													<div class="photo-number-4"></div>
+													<div class="photo-number-5"></div>
+													<div class="photo-number-6"></div>
+												</div>
+
+												<h1 class="modal-h1">App 2</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-3">
-											<div class="modal modal-3">
-												<!--<iframe src="http://html5-demos.appspot.com/static/getusermedia/photobooth.html" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<iframe src="http://html5-demos.appspot.com/static/getusermedia/photobooth.html" width="270" height="470" frameborder="0"></iframe>
 
 											</div>
 										</div>
 
 										<div class="modal-wrapper-4">
-											<div class="modal modal-4">
-										<!--<iframe src="http://m.weather.com/weather/today/USNY0998" width="270" height="470" frameborder="0"></iframe>-->
-
+											<div class="modal">
+										<iframe src="http://m.weather.com/weather/today/USNY0998" width="270" height="470" frameborder="0"></iframe>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-5">
 											<div class="modal modal-5">
-												
 												<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96708.31114185986!2d-73.96923099999998!3d40.75906150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1441764402810" width="270" height="470" frameborder="0" style="border:0" allowfullscreen>
 												</iframe>
 											</div>
 										</div>
 
-
 									<div class="modal-wrapper-6">
-											<div class="modal modal-6">
-												<!-- <textarea placeholder="Type Here"></textarea> -->
+											<div class="modal">
+												<textarea placeholder="Type Here" >
+											</textarea>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-7">
-											<div class="modal modal-7">
-												<!--<iframe src="https://fnd.io/#/" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 7</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-8">
-											<div class="modal modal-8">
-												<!--<iframe src="http://www.tutorialspoint.com/unix_terminal_online.php" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 8</h1>
 											</div>
 										</div>
-
 
 										<div class="modal-wrapper-9">
-											<div class="modal modal-9">
+											<div class="modal">
 												<iframe width="270px" height="470px" src="http://web2.0calc.com/widgets/vertical/?options=%7B%22angular%22%3A%22deg%22%2C%22options%22%3A%22hide%22%2C%22menu%22%3A%22show%22%7D" scrolling="no" > 
 												</iframe>
-												
-												
-
+												<br />
 											</div>
 										</div>
-
 
 										<div class="modal-wrapper-10">
-											<div class="modal modal-10">
-												<!--<iframe src="https://www.peoplesmart.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 10</h1>
 											</div>
 										</div>
-
 
 										<div class="modal-wrapper-11">
-											<div class="modal modal-11">
-												<!--<iframe src="https://www.spotify.com/us/" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 11</h1>
 											</div>
 										</div>
-
 
 										<div class="modal-wrapper-12">
-											<div class="modal modal-12">
-												<!--<iframe width="270" height="470" src="https://www.youtube.com/embed/orPHNS-0CZI" frameborder="0" allowfullscreen></iframe>-->
+											<div class="modal">
+												<iframe width="270" height="470" src="https://www.youtube.com/embed/orPHNS-0CZI" frameborder="0" allowfullscreen></iframe>
 											</div>
 										</div>
 
-
 										<div class="modal-wrapper-13">
-											<div class="modal modal-13">
-												<!--<iframe src="https://www.spotify.com/us/" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 13</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-14">
-											<div class="modal modal-14">
-												<!--<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>-->
-
+											<div class="modal">
+												<h1 class="modal-h1">App 14</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-15">
-											<div class="modal modal-15">
-												<!--<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 15</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-16">
-											<div class="modal modal-16">
-												<!--<iframe src="http://www.usatoday.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<iframe src="http://www.cnn.com" width="270" height="470" frameborder="0"></iframe>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-17">
-											<div class="modal modal-17">
-												<!--<iframe src="https://unsplash.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												
 											</div>
 										</div>
 
 										<div class="modal-wrapper-18">
-											<div class="modal modal-18">
-												<!--<iframe src="http://www.marketwatch.com/m/quote/COMP" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
 											</div>
 										</div>
 
 										<div class="modal-wrapper-19">
-											<div class="modal modal-19">
-													<!--<iframe src="http://www.clocktab.com" width="270" height="470" frameborder="0"></iframe>-->
-
+											<div class="modal">
+													<iframe src="http://www.clocktab.com" width="270" height="470" frameborder="0"></iframe>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-20">
-											<div class="modal modal-20">
-												<!-- <iframe src="https://www.peoplesmart.com" width="270" height="470" frameborder="0"></iframe> -->
+											<div class="modal">
 											</div>
 										</div>
 
 										<div class="modal-wrapper-21">
-											<div class="modal modal-21">
-												<!--<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 21</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-22">
-											<div class="modal modal-22">
-												<!--<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 22</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-23">
-											<div class="modal modal-23">
-												<iframe width="270px" height="470px" src="http://web2.0calc.com/widgets/vertical/?options=%7B%22angular%22%3A%22deg%22%2C%22options%22%3A%22hide%22%2C%22menu%22%3A%22show%22%7D" scrolling="no" > 
-												</iframe>
+											<div class="modal">
+												<h1 class="modal-h1">App 23</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-24">
-											<div class="modal modal-24">
-												<!--<iframe width="270" height="470" src="https://www.youtube.com/embed/orPHNS-0CZI" frameborder="0" allowfullscreen></iframe>-->
+											<div class="modal">
+												<iframe width="270" height="470" src="https://www.youtube.com/embed/orPHNS-0CZI" frameborder="0" allowfullscreen></iframe>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-25">
-											<div class="modal modal-25">
-												<!--<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 25</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-26">
-											<div class="modal modal-26">
-												<!--<iframe src="http://devdocs.io" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
 											</div>
 										</div>
 
 										<div class="modal-wrapper-27">
-											<div class="modal modal-27">
-												<!--<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 27</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-28">
-											<div class="modal modal-28">
-												<!--<iframe src="https://multimessenger.co" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 28</h1>
 											</div>
 										</div>
 
 										<div class="modal-wrapper-29">
-											<div class="modal modal-29">
-												<!--<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>-->
+											<div class="modal">
+												<h1 class="modal-h1">App 29</h1>
 											</div>
 										</div>
 				</div> <!-- END OF IPHONE SCREEN -->
 				<button class="iphone-button exit">	<div class="button-decal close-modal">	</div></button> <!-- IPHONE BUTTON -->
 		</div> <!-- END OF THE WHOLE IPHONE --> 
-	
-
-
-
-
-
-
-
-
-
-	<footer>Built by Kenny Batista - Github:kennybatista</footer>
+		</div>
+		
 	<script>
-
-
 			// Swiper.js Beginning
 		    var mySwiper = new Swiper ('.swiper-container', {
 		                direction: 'horizontal',
@@ -297,60 +282,23 @@
 		          })   
 		    // Swiper.js End
 
-
-
-
-
-
-
-
-
-
+		    window.frames[0].stop()
 		    $(document).ready(function(e){
-				
-
-
-
-       
 // -------------------OPEN APP MODALS BEGINNING------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                             //show modal function
                         function showModal1(){
                             $(".modal-wrapper-1").show();
-                            
                         }
 
                         //hide the modal function
                         function hideModal1() {
                             $(".modal-wrapper-1").hide();
-
-                            
                         }
 
                         $("#app-1").click(function(e){
                             showModal1(); //show the modal method.
-
-                            $(".modal-1").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
-
-
-                            
-
                             e.preventDefault();
-
                         });
 
 
@@ -358,33 +306,7 @@
                         $(".close-modal").click(function(e){
                             hideModal1(); //hide the modal method.
                             e.preventDefault();
-
-                            $(".calendar").remove();
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                             //show modal function
                         function showModal2(){
@@ -392,48 +314,21 @@
                             
                         }
 
-
-
                         //hide the modal function
                         function hideModal2() {
                             $(".modal-wrapper-2").hide();
-
-                            
                         }
-
 
                         $("#app-2").click(function(e){
                             showModal2(); //show the modal method.
-
-                            $(".modal-2").append('<iframe class="photos" src="https://unsplash.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal2(); //hide the modal method.
                             e.preventDefault();
-                            $(".photos").hide();
                         });
-
-                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                             //show modal function
                         function showModal3(){
@@ -441,55 +336,21 @@
                             
                         }
 
-
-
                         //hide the modal function
                         function hideModal3() {
                             $(".modal-wrapper-3").hide();
-
-                            
                         }
-
-
 
                         $("#app-3").click(function(e){
                             showModal3(); //show the modal method.
-
-                            $(".modal-3").append('<iframe class="camera" src="http://html5-demos.appspot.com/static/getusermedia/photobooth.html" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal3(); //hide the modal method.
                             e.preventDefault();
-                            $(".camera").hide();
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                             //show modal function
                         function showModal4(){
@@ -497,79 +358,36 @@
                             
                         }
 
-
-
                         //hide the modal function
                         function hideModal4() {
                             $(".modal-wrapper-4").hide();
-
-                            
                         }
-
 
                         $("#app-4").click(function(e){
                             showModal4(); //show the modal method.
-
-                            $(".modal-4").append('<iframe class="weather" src="http://m.weather.com/weather/today/USNY0998" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal4(); //hide the modal method.
                             e.preventDefault();
-                            $(".weather").hide();
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                             //show modal function
                         function showModal5(){
                             $(".modal-wrapper-5").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal5() {
                             $(".modal-wrapper-5").hide();
-
-                            
                         }
-
 
                         $("#app-5").click(function(e){
                             showModal5(); //show the modal method.
-
-            //                 $(".modal-5").append('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96708.31114185986!2d-73.96923099999998!3d40.75906150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1441764402810" width="270" height="470" frameborder="0" style="border:0" allowfullscreen>
-												// </iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
@@ -577,121 +395,47 @@
                             e.preventDefault();
                         });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             //show modal function
                         function showModal6(){
                             $(".modal-wrapper-6").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal6() {
                             $(".modal-wrapper-6").hide();
-
-                            
                         }
-
-
 
                         $("#app-6").click(function(e){
                             showModal6(); //show the modal method.
-
-                            $(".modal-6").append('<textarea class="notes" placeholder="Type Here"></textarea>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal6(); //hide the modal method.
                             e.preventDefault();
-                            $(".notes").hide();
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                             //show modal function
                         function showModal7(){
                             $(".modal-wrapper-7").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal7() {
                             $(".modal-wrapper-7").hide();
-
-                            
                         }
-
-
 
                         $("#app-7").click(function(e){
                             showModal7(); //show the modal method.
-
-                            $(".modal-7").append('<iframe class="appstore" src="https://fnd.io/#/" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal7(); //hide the modal method.
                             e.preventDefault();
-                            $(".appstore").hide();
                         });
-
-
-                     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                             //show modal function
                         function showModal8(){
@@ -699,77 +443,36 @@
                             
                         }
 
-
-
                         //hide the modal function
                         function hideModal8() {
                             $(".modal-wrapper-8").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-8").click(function(e){
                             showModal8(); //show the modal method.
-
-                            $(".modal-8").append('<iframe class="settings" src="http://www.tutorialspoint.com/unix_terminal_online.php" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal8(); //hide the modal method.
                             e.preventDefault();
-                            $(".settings").hide();
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal9(){
                             $(".modal-wrapper-9").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal9() {
                             $(".modal-wrapper-9").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-9").click(function(e){
                             showModal9(); //show the modal method.
-
-                           
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
@@ -777,682 +480,271 @@
                             e.preventDefault();
                         });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                          //show modal function
                         function showModal10(){
                             $(".modal-wrapper-10").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal10() {
                             $(".modal-wrapper-10").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-10").click(function(e){
                             showModal10(); //show the modal method.
-
-                            $(".modal-10").append('<iframe class="contacts" src="https://www.peoplesmart.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal10(); //hide the modal method.
                             e.preventDefault();
-                            $(".contacts").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal11(){
                             $(".modal-wrapper-11").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal11() {
                             $(".modal-wrapper-11").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-11").click(function(e){
                             showModal11(); //show the modal method.
-
-                            $(".modal-11").append('<iframe class="appleMusic" src="http://www.klove.com/listen/player.aspx" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal11(); //hide the modal method.
                             e.preventDefault();
-                            $(".appleMusic").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal12(){
                             $(".modal-wrapper-12").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal12() {
                             $(".modal-wrapper-12").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-12").click(function(e){
                             showModal12(); //show the modal method.
-
-                            $(".modal-12").append('<iframe class="video" width="270" height="470" src="https://www.youtube.com/embed/orPHNS-0CZI" frameborder="0" allowfullscreen></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal12(); //hide the modal method.
                             e.preventDefault();
-                            $(".video").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal13(){
                             $(".modal-wrapper-13").show();
-                            
                         }
-
 
 
                         //hide the modal function
                         function hideModal13() {
                             $(".modal-wrapper-13").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-13").click(function(e){
                             showModal13(); //show the modal method.
-
-                            $(".modal-13").append('<iframe class="soundCloud" src="http://www.klove.com/listen/player.aspx" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal13(); //hide the modal method.
                             e.preventDefault();
-                            $(".soundCloud").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal14(){
                             $(".modal-wrapper-14").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal14() {
                             $(".modal-wrapper-14").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-14").click(function(e){
                             showModal14(); //show the modal method.
-
-                            $(".modal-14").append('<iframe class="reminders" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal14(); //hide the modal method.
                             e.preventDefault();
-                            $(".reminders").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal15(){
                             $(".modal-wrapper-15").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal15() {
                             $(".modal-wrapper-15").hide();
-
-                            
                         }
-
-
 
 
                         $("#app-15").click(function(e){
                             showModal15(); //show the modal method.
-
-                            $(".modal-15").append('<iframe src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal15(); //hide the modal method.
                             e.preventDefault();
-                            $().hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal16(){
                             $(".modal-wrapper-16").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal16() {
                             $(".modal-wrapper-16").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-16").click(function(e){
                             showModal16(); //show the modal method.
-
-                            $(".modal-16").append('<iframe class="news" src="http://www.usatoday.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal16(); //hide the modal method.
                             e.preventDefault();
-                            $(".news").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal17(){
                             $(".modal-wrapper-17").show();
-                            
                         }
 
-
-
-                        //hide the modal function
                         function hideModal17() {
                             $(".modal-wrapper-17").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-17").click(function(e){
                             showModal17(); //show the modal method.
-
-                            $(".modal-17").append('<iframe class="instagram" src="https://unsplash.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal17(); //hide the modal method.
                             e.preventDefault();
-                            $(".instagram").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal18(){
                             $(".modal-wrapper-18").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal18() {
                             $(".modal-wrapper-18").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-18").click(function(e){
                             showModal18(); //show the modal method.
-
-                            $(".modal-18").append('<iframe class="stocks" src="http://www.marketwatch.com/m/quote/COMP" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal18(); //hide the modal method.
                             e.preventDefault();
-                            $(".stocks").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal19(){
                             $(".modal-wrapper-19").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal19() {
                             $(".modal-wrapper-19").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-19").click(function(e){
                             showModal19(); //show the modal method.
-
-                            $(".modal-19").append('<iframe class="clock" src="http://www.clocktab.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal19(); //hide the modal method.
                             e.preventDefault();
-                            $(".clock").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal20(){
                             $(".modal-wrapper-20").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal20() {
                             $(".modal-wrapper-20").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-20").click(function(e){
                             showModal20(); //show the modal method.
-
-                            $(".modal-20").append('<iframe class="facebook" src="https://www.peoplesmart.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal20(); //hide the modal method.
                             e.preventDefault();
-                            $(".facebook").hide();
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal21(){
                             $(".modal-wrapper-21").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal21() {
                             $(".modal-wrapper-21").hide();
-
-                            
                         }
-
-
-
-
+                        
                         $("#app-21").click(function(e){
                             showModal21(); //show the modal method.
-
-                            $(".modal-21").append('<iframe class="pass" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal21(); //hide the modal method.
                             e.preventDefault();
-                            $(".pass").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal22(){
                             $(".modal-wrapper-22").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal22() {
                             $(".modal-wrapper-22").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-22").click(function(e){
                             showModal22(); //show the modal method.
-
-                            $(".modal-22").append('<iframe class="pass" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
 
@@ -1461,50 +753,20 @@
                         $(".close-modal").click(function(e){
                             hideModal22(); //hide the modal method.
                             e.preventDefault();
-                            $(".pass").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal23(){
                             $(".modal-wrapper-23").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal23() {
                             $(".modal-wrapper-23").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-23").click(function(e){
                             showModal23(); //show the modal method.
-
-                            
-
                             e.preventDefault();
                         });
 
@@ -1513,356 +775,138 @@
                         $(".close-modal").click(function(e){
                             hideModal23(); //hide the modal method.
                             e.preventDefault();
-                            
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal24(){
                             $(".modal-wrapper-24").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal24() {
                             $(".modal-wrapper-24").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-24").click(function(e){
                             showModal24(); //show the modal method.
-
-                             $(".modal-24").append('<iframe class="video" width="270" height="470" src="https://www.youtube.com/embed/orPHNS-0CZI" frameborder="0" allowfullscreen></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal24(); //hide the modal method.
                             e.preventDefault();
-                            $(".video").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal25(){
                             $(".modal-wrapper-25").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal25() {
                             $(".modal-wrapper-25").hide();
-
-                            
                         }
-
-
 
 
                         $("#app-25").click(function(e){
                             showModal25(); //show the modal method.
-
-                            $(".modal-25").append('<iframe class="messages" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal25(); //hide the modal method.
                             e.preventDefault();
-                            $(".messages").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal26(){
                             $(".modal-wrapper-26").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal26() {
                             $(".modal-wrapper-26").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-26").click(function(e){
                             showModal26(); //show the modal method.
-
-                            $(".modal-26").append('<iframe class="browser" src="http://devdocs.io" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal26(); //hide the modal method.
                             e.preventDefault();
-                            $(".browser").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal27(){
                             $(".modal-wrapper-27").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal27() {
                             $(".modal-wrapper-27").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-27").click(function(e){
                             showModal27(); //show the modal method.
-
-                            $(".modal-27").append('<iframe class="phone" src="http://www.m.remindeo.com" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal27(); //hide the modal method.
                             e.preventDefault();
-                            $(".phone").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal28(){
                             $(".modal-wrapper-28").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal28() {
                             $(".modal-wrapper-28").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-28").click(function(e){
                             showModal28(); //show the modal method.
-
-                            $(".modal-28").append('<iframe class="messenger" src="https://multimessenger.co" width="270" height="470" frameborder="0"></iframe>');
-
                             e.preventDefault();
                         });
-
-
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal28(); //hide the modal method.
                             e.preventDefault();
-                            $(".messenger").hide()
                         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                          //show modal function
                         function showModal29(){
                             $(".modal-wrapper-29").show();
-                            
                         }
-
-
 
                         //hide the modal function
                         function hideModal29() {
                             $(".modal-wrapper-29").hide();
-
-                            
                         }
-
-
-
 
                         $("#app-29").click(function(e){
                             showModal29(); //show the modal method.
-
-                            $(".modal-29").append('<iframe class="calendar" src="https://www.dayhaps.com/en/widget-calendar-2360.html?lang=en height=600px width=500px border=0"></iframe>');
-
                             e.preventDefault();
                         });
-
 
                         //when button exit and no are clicked it will close the modal
                         $(".close-modal").click(function(e){
                             hideModal29(); //hide the modal method.
                             e.preventDefault();
-                            $().hide()
                         });
-
 // -------------------OPEN APP MODALS END------------------------------------------------------------------------
-
-
-            });	
-
-
-
-
-
-
-
-
-
-					
-
-
-
-
-
-		    
-		
-
-	</script>
-
+            });
+	 </script>
 	</body>
+
+	<div class="footer">Built by Kenny Batista - Github:kennybatista</div>
 </html>

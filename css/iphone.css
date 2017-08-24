@@ -1,16 +1,17 @@
 /*OUTTER IPHONE APPEARANCE */
 		.iphone {
+
+			position: absolute;
 			background-color: #1A1A1A;
 			width: 300px;
 			height: 600px;
-			margin-left: auto;
-			margin-right: auto;
+			margin: auto;
 			border-radius: 50px;
 			border: 3px solid #bdc3c7;
-			position: absolute;
-		    top: 55%;
-		    left: 50%;
-		    -webkit-transform: translateX(-50%) translateY(-50%);
+			position: relative;
+		    bottom: 5px;
+		    top: 20px;
+		    /*-webkit-transform: translateX(-50%) translateY(-50%);*/
 
 
 		}
@@ -58,7 +59,7 @@
 		    border: 2px solid transparent;
 		    width: 50px;
 		    height: 50px;
-		    position: fixed;
+		    position: absolute;
 		    bottom: 15px;
 		    left: 124px;
 			
